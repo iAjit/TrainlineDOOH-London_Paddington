@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html><head><meta name="GCD" content="YTk3ODQ3ZWZhN2I4NzZmMzBkNTEwYjJlf91dba8d0960ebab28d01fc4ff1c44fc"/>
+<html><head><meta name="GCD" content="YTk3ODQ3ZWZhN2I4NzZmMzBkNTEwYjJldfea8986d7cc34dc9e2eb1efb15d616b"/>
   <meta charset="utf-8">
   <meta name="generator" content="Google Web Designer 16.4.1.0219">
   <meta name="template" content="Banner 3.0.0">
@@ -442,7 +442,7 @@ set:function(a){this.g.height=a}},width:{configurable:!0,enumerable:!0,get:funct
 
 
 
-            //console.log("Matched records : ");
+            console.log("Matched records : ");
             //console.table(matchedServices);
             var processedServices = [];
 
@@ -478,8 +478,8 @@ set:function(a){this.g.height=a}},width:{configurable:!0,enumerable:!0,get:funct
               //   }
             });
 
-            //console.log("Processed Services:");
-            //console.table(processedServices);
+            console.log("Processed Services:");
+            console.table(processedServices);
 
             var highestCategory = "OnTime";
             var highestPriority = 0;
@@ -560,7 +560,7 @@ set:function(a){this.g.height=a}},width:{configurable:!0,enumerable:!0,get:funct
         }
 
         function generateCreativeMessage(category, stationName) {
-          //category = "Cancelled";
+          //category = "OnTime";
           switch (category) {
             case "Cancelled":
               console.log("Cancelled");
